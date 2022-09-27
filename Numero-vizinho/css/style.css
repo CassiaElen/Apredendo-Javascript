@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+header{
+    padding: 100px 10px 10px 10px;
+    color: azure;
+}
+
+section{
+    background: rgb(155, 181, 230);
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+form{
+    padding-bottom: 10px;
+}
+#numero{
+    height: 25px;
+    outline: none;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    cursor: pointer;
+}
+
+#resultado{
+    padding-top: 10px;
+}
+
+footer{
+    padding-top: 10px;
+    color: azure;
+}
