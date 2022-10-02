@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Vamos Contar</h1>
+        </header>
+        <section>
+            <form>
+               <div class="espaco-padrao">
+                  <label for="inicio">Inicio:</label>
+                  <input type="number" name="inicio" id="inicio">
+               </div>
+               <div class="espaco-padrao">
+                  <label for="fim">Fim:</label>
+                  <input type="number" name="fim" id="fim">
+               </div>
+               <div class="espaco-padrao">
+                  <label for="passo">Passo:</label>
+                  <input type="number" name="passo" id="passo">
+               </div>
+               <input type="button" value="Contar" id="button" onclick="contarNum()">
+            </form>
+            <div id="resultado">
+                <p>Preparando contagem...</p>
+            </div>
+        </section>
+        <footer>
+            <p>@Cássia Elen</p>
+        </footer>
+    </div>
+</body>
+</html>
