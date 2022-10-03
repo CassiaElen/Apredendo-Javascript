@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(231, 201, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+header{
+    padding: 15px;
+    color: aliceblue;
+}
+
+section{
+    background: rgb(221, 187, 221);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 2px 1px purple; 
+}
+
+#form{
+    width: 100%;
+    max-width: 350px;
+}
+
+.espaco-padrao{
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+}
+
+.espaco-padrao label{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color:  rgb(170, 106, 170);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+.espaco-padrao .input-padrao{
+    background: rgb(221, 187, 221);
+    width: 100%;
+    padding: 5px;
+    color:  rgb(172, 59, 59);
+    border: 0;
+    border-bottom: 2px solid rgb(170, 106, 170);
+    outline: 0;
+    font-size: 16px;
+}
+
+.espaco-padrao .input-padrao:focus,
+.espaco-padrao .input-padrao:valid{
+    border-bottom: 2px solid rgb(172, 59, 59) ;
+}
+
+.espaco-padrao .input-padrao:focus ~ label,
+.espaco-padrao .input-padrao:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color:  rgb(172, 59, 59);
+}
+
+#area-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background:rgb(143, 168, 214);
+    padding: 15px;
+    border: none;
+    border-radius:10px ;
+    color: aliceblue;
+}
+
+
+#resultado{
+    text-align: center;
+    color:  rgb(172, 59, 59);
+}
+
+footer{
+    padding: 10px;
+    color: aliceblue;
+    font-style: italic;
+}
